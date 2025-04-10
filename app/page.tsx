@@ -22,7 +22,7 @@ const Card = styled.div`
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
 `;
 
-const TitleName = styled.h1`
+const Title = styled.h1`
   font-size: 2.5rem;
   margin-bottom: 1rem;
   color: #2c3e50;
@@ -90,7 +90,7 @@ export default function Home() {
   return (
     <Container>
       <Card>
-        <TitleName>Discover Harvard Art!</TitleName>
+        <Title>Discover Harvard Art!</Title>
         <Description>Enter an artwork identifier to view details.</Description>
         <Instructions>
           To search for artwork, try one of the following valid artwork numbers:
